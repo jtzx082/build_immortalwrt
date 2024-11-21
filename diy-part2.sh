@@ -29,7 +29,7 @@ function git_sparse_clone() {
 
 # 添加主题
 #git clone -b js --single-branch https://github.com/gngpp/luci-theme-design package/luci-theme-design
-git clone https://github.com/derisamedia/luci-theme-alpha.git package/luci-theme-alpha
+# git clone https://github.com/derisamedia/luci-theme-alpha.git package/luci-theme-alpha
 
 # 添加测速插件
 # git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
@@ -57,7 +57,7 @@ CONFIG_PACKAGE_luci-theme-material=y
 
 CONFIG_PACKAGE_luci-theme-openwrt-2020=y
 
-CONFIG_PACKAGE_luci-theme-alpha=y
+#CONFIG_PACKAGE_luci-theme-alpha=y
 
 # 测速插件
 #CONFIG_PACKAGE_luci-app-netspeedtest=y
