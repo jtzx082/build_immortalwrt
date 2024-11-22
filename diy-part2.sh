@@ -34,7 +34,7 @@ function git_sparse_clone() {
 # 添加测速插件
 # git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 # 添加 万能推送
-# git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
+ git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
 # 添加关机插件
 #git clone https://github.com/VPN-V2Ray/luci-app-poweroff.git package/luci-app-poweroff
 # 添加passwall2
@@ -63,13 +63,7 @@ CONFIG_PACKAGE_luci-theme-openwrt-2020=y
 #CONFIG_PACKAGE_luci-app-netspeedtest=y
 
 # 万能推送
-#CONFIG_PACKAGE_luci-app-pushbot=y
-
-# 关机插件
-#CONFIG_PACKAGE_luci-app-poweroff=y
-
-# passwall2
-#CONFIG_PACKAGE_luci-app-passwall2=y
+CONFIG_PACKAGE_luci-app-pushbot=y
 
 # TurboAcc
 #CONFIG_PACKAGE_luci-app-turboacc=y
