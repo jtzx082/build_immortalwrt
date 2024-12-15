@@ -173,6 +173,9 @@ jobs:
         " >> release.txt
         echo "status=success" >> ${GITHUB_OUTPUT}
 
+    - name: List firmware files
+      run: ls ${{ env.FIRMWARE }}
+
     - name: 自动发布固件到 Releases
       uses: softprops/action-gh-release@master
       if: steps.tag.outputs.status == 'success' && !cancelled()
