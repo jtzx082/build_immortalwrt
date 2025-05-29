@@ -1,4 +1,4 @@
-name: openwrt-builder
+name: openwrt-builder-openwrt-24.10
 
 on:
   repository_dispatch:
