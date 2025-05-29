@@ -45,6 +45,8 @@ git clone https://github.com/xiaorouji/openwrt-passwall2.git package/luci-app-pa
 #curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh
 #chmod -R 777 add_turboacc.sh
 #bash add_turboacc.sh --no-sfe
+# 添加分区扩容插件
+git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
 
 
 echo "
@@ -73,6 +75,9 @@ CONFIG_PACKAGE_luci-app-netspeedtest=y
 
 # 添加passwall2
 CONFIG_PACKAGE_luci-app-passwall2=y
+
+# 添加分区扩容插件
+CONFIG_PACKAGE_luci-app-partexp=y
 
 " >> .config
 
