@@ -38,7 +38,7 @@ git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 # 添加关机插件
 #git clone https://github.com/VPN-V2Ray/luci-app-poweroff.git package/luci-app-poweroff
 # 添加passwall2
-git clone https://github.com/xiaorouji/openwrt-passwall2.git package/luci-app-passwall2
+#git clone https://github.com/xiaorouji/openwrt-passwall2.git package/luci-app-passwall2
 # 添加应用过滤
 #git clone  https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 #加入turboacc
@@ -74,7 +74,7 @@ CONFIG_PACKAGE_luci-app-netspeedtest=y
 #CONFIG_PACKAGE_luci-app-oaf=y
 
 # 添加passwall2
-CONFIG_PACKAGE_luci-app-passwall2=y
+#CONFIG_PACKAGE_luci-app-passwall2=y
 
 # 添加分区扩容插件
 CONFIG_PACKAGE_luci-app-partexp=y
