@@ -40,7 +40,7 @@ function git_sparse_clone() {
 # 添加passwall2
 # git clone https://github.com/xiaorouji/openwrt-passwall2.git package/luci-app-passwall2
 # 添加应用过滤
-git clone  https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+# git clone  https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 #加入turboacc
 #curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh
 #chmod -R 777 add_turboacc.sh
@@ -69,7 +69,7 @@ CONFIG_PACKAGE_luci-theme-openwrt-2020=y
 #CONFIG_PACKAGE_luci-app-turboacc=y
 
 # 应用过滤
-CONFIG_PACKAGE_luci-app-oaf=y
+# CONFIG_PACKAGE_luci-app-oaf=y
 
 " >> .config
 
